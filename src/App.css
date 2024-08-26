@@ -25,3 +25,95 @@ header{
   background: linear-gradient(90deg, #46B264 4%, #88C0C6 58%,#A9C7F5 85%);
 
 }
+
+.form{
+  display: grid;
+  grid-template: 30px 30px / 20rem 19rem;
+  /* grid-template: 0.5rem 2.5em / 20rem 20rem; */
+  background-color:#59665d;
+  row-gap: 3rem;
+  justify-content: center;
+
+}
+
+.form >div {
+  background-color: rgb(181, 83, 83);
+}
+
+input{
+  width:18rem;
+  height: 2.5rem;
+  border:0.09rem lightgray solid;
+  border-radius: 0.5em;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.65px;
+  text-align: left;
+
+}
+
+button{
+  width: 38.1rem;
+  height: 2.5rem;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #46B264 4%, #88C0C6 58%,#A9C7F5 85%);
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.7px;
+  letter-spacing: -0.1em;
+  text-align: center;
+
+
+}
+
+/* .input{
+  display:grid;
+  grid-template-columns: 20rem 20rem; 
+  grid-template-rows: 4rem 5rem;
+  gap:10px;
+  background-color:#46B264;
+}
+
+.input>div{
+  background-color: black;
+} */
+/* .input{
+  margin-top:2em;
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+input {
+  /* margin-top: 0.3rem;
+  width: 25em;
+  height: 3em;
+  border:0.09rem lightgray solid;
+  border-radius: 0.5em; */
+  
+  
+
+/* } */
+/* 
+.top{
+  
+  margin-left: 15rem;
+}
+
+.bottom{
+  
+  margin-right: 15rem;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  margin-top:1em;
+}
+
+button{
+  width:45.8rem;
+  justify-content: center;
+} */ */
